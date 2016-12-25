@@ -62,3 +62,61 @@ Task
 
 You are given a space separated list of nine integers. Your task is to convert this list into a 3X3 NumPy array.
 1 2 3 4 5 6 7 8 9
+
+
+# Transpose & Flatten
+
+## Transpose : We may get the transposition of an array using numpy.transpose. It does not affect the original array & creates a new array.
+
+Example :
+ a = numpy.array([[1,2,3], [4,5,6]])
+
+output: [[1,4],[2,5],[3,6]]
+
+## Flatten : The tool flatten creates a copy of the input array flattened to one dimension. 
+ a = numpy.array([[1,2,3], [4,5,6]])
+print a.flatten()
+
+output : [1,2,3,4,5,6]
+
+Task
+
+You are given NxM elemenets with space separated elements. you need to print transpose and flatten results. first line of input has N and M. rest N columns each has M elements.
+ 2 2
+ 1 2
+ 3 4
+
+
+# Concatenate 
+
+Two or More numpy arrays can be concatenated using concatenate function.
+numpy_array_1 = numpy.array([1, 2, 3])
+numpy_array_2 = numpy.array([4, 5, 6])
+numpy_array_3 = numpy.array([7, 8, 9])
+
+
+print numpy.concatenate((numpy_array_1, numpy_array_2, numpy_array_3))
+If an array has more than one dimension, it is possible to specify the axis along which multiple arrays are concatenated. By default, it is along the first dimension.
+
+array_1 = numpy.array([1,2,3],[0,0,0])
+array_2 = numpy.array([0,0,0],[7,8,9])
+
+print (numpy.concatenate((array_1,array_2), axis = 1))
+
+
+# Zeros and Ones
+
+The zeros tool returns a new array with a given shape and type filled with 's.
+Default type is float
+
+print numpy.zeros((1,2))
+output : [[ 0.  0.]]
+
+Converting Float type to int
+print numpy.zeros((1,2) dtype = numpy.int)
+The ones tool returns a new array with a given shape and type filled with 1's.
+Default type is float
+print numpy.ones((1,2) dtype = numpy.int)
+
+
+Remember we dimension is a tuple 
