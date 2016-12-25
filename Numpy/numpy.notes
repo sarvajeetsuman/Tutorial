@@ -172,6 +172,8 @@ print numpy.multiply(a, b)      #[  5.  12.  21.  32.]
 print a / b                     #[ 0.2         0.33333333  0.42857143  0.5       ]
 print numpy.divide(a, b)        #[ 0.2         0.33333333  0.42857143  0.5       ]
 
+# use // for integer division in python 3 
+
 print a % b                     #[ 1.  2.  3.  4.]
 print numpy.mod(a, b)           #[ 1.  2.  3.  4.]
 
