@@ -38,7 +38,8 @@ output: (6,)
 
 my_2d_array = numpy.array([[1,2],[3,4],[5,6]])
 my_2d_array.shape
-output : (3,2) 
+output : (3,2) Points: 541.00 Rank: 5202
+
 
 
 (b) Use Shape to change the dimension of numpy array
@@ -106,7 +107,7 @@ print (numpy.concatenate((array_1,array_2), axis = 1))
 
 # Zeros and Ones
 
-The zeros tool returns a new array with a given shape and type filled with 's.
+The zeros tool returns a new array with a given shape and type filled with 0's.
 Default type is float
 
 print numpy.zeros((1,2))
@@ -119,4 +120,4 @@ Default type is float
 print numpy.ones((1,2) dtype = numpy.int)
 
 
-Remember we dimension is a tuple 
+Remember dimension is a tuple 
