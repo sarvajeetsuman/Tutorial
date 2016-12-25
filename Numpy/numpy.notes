@@ -121,3 +121,15 @@ print numpy.ones((1,2) dtype = numpy.int)
 
 
 Remember dimension is a tuple 
+
+# Eye and Identity
+
+identity : The identity tool returns an identity array. 
+An identity array is a square matrix with all the main diagonal elements as  and the rest as 0. 
+The default type of elements is float.
+print numpy.identity(3)
+output :
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+ 
