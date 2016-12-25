@@ -227,6 +227,9 @@ print numpy.prod(my_array, axis = 1)            #Output : [ 2 12]
 print numpy.prod(my_array, axis = None)         #Output : 24
 print numpy.prod(my_array)                      #Output : 24
 By default, the axis value is None. Therefore, it performs the product over all the dimensions of the input array.
+
+# Min and Max
+
 min
 
 The tool min returns the minimum value along a given axis.
@@ -260,6 +263,6 @@ print numpy.max(my_array, axis = 1)         #Output : [5 7 3 4]
 print numpy.max(my_array, axis = None)      #Output : 7
 print numpy.max(my_array)                   #Output : 7
 By default, the axis value is None. Therefore, it finds the maximum over all the dimensions of the input array.
-# Min and Max
+
 
 
