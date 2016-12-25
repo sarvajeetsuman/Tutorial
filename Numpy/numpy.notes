@@ -307,6 +307,25 @@ print numpy.std(my_array, axis = None)      #Output : 1.11803398875
 print numpy.std(my_array)                   #Output : 1.11803398875
 By default, the axis is None. Therefore, it computes the standard deviation of the flattened array.
 
+# Dot and Cross
 
+dot
 
+The dot tool returns the dot product of two arrays.
 
+import numpy
+
+A = numpy.array([ 1, 2 ])
+B = numpy.array([ 3, 4 ])
+
+print numpy.dot(A, B)       #Output : 11
+cross
+
+The cross tool returns the cross product of two arrays.
+
+import numpy
+
+A = numpy.array([ 1, 2 ])
+B = numpy.array([ 3, 4 ])
+
+print numpy.cross(A, B)     #Output : -2
